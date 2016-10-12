@@ -14,7 +14,7 @@ bool stack::isStackEmpty() {
     return top==0;
 }
 int stack::pop() {
-    if (top==0){
+    if (isStackEmpty()){
 //        return -1;//error
         throw __EXCEPTIONS;
     }
